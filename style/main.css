@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box
+}
+
+html,
+body {
+    width: 100%;
+    overflow: hidden;
+}
+
+.glider {
+    text-align: center;
+    font-size: 25px;
+}
+
+.glider-contain {
+    width: 60%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.glider-slide {
+    height: 10px;
+    min-height: 50px;
+}
+
+.glider-slide img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.level1 {
+    width: 100%;
+    text-align: center;
+}
+
+.level2 {
+    width: 95%;
+    text-align: center;
+}
+
+.level3 {
+    text-align: left;
+}
