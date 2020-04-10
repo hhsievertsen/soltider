@@ -2,29 +2,32 @@
 
 <head>
     <meta charset="utf-8">
+    <!--Load jquery-->
     <script src="js/jquery-3.4.1.min.js"></script>
+    <!--Load suncalc: calculate sunset and sunrise-->
     <script src="js/suncalc-master/suncalc	.js"></script>
+    <!--Load chartjs: create chart-->
     <script src="js/Chart.min.js"></script>
+    <script src="js/chartjs-plugin-annotation.min.js"></script>
+    <!--Load gliderjs: create selection wheel-->
     <script src="js/glider.js"></script>
+    <script src="js/glider_personalisation.js"></script>
+    <!--Load momentjs: for workign with dates-->
     <script src="js/moment.js"></script>
     <script src="js/moment-timezone-with-data.js"></script>
-
+    <!--Layout-->
     <link href="style/main.css" rel="stylesheet" type="text/css" />
-    <script src="js/glider_personalisation.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-annotation/0.5.7/chartjs-plugin-annotation.min.js"></script>
-
     <link rel="stylesheet" type="text/css" href="style/glider.css">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, target-densitydpi=medium-dpi, user-scalable=0" />
-
-
+    <link href="https://fonts.googleapis.com/css2?family=Gotu&display=swap" rel="stylesheet">
+    <!--Viewport-->
+    <meta name="viewport" content="width=1280, initial-scale=1">
 </head>
 <html>
 
 <body>
     <div class="level1">
         <div class="level2" id="textbox">
-            <h1>Soltider</h1><br>
+            <h1>Soltider</h1>
             <em>Denne app er lavet til min mor, men du må også godt bruge den.</em>
             <br><br>
             <div class="level3">
@@ -52,6 +55,7 @@
         </div>
         <div class="glider-contain">
             <div class="glider">
+                <!--Options: note ordering matters, because location is selected based on the slide number-->
                 <div>Aarhus</div>
                 <div>Fiskbæk</div>
                 <div>Guatemala City</div>
@@ -70,11 +74,14 @@
             <button class="glider-prev">&laquo;</button>
             <button class="glider-next">&raquo;</button>
         </div>
+        <br>
+        <div class="credit">Udviklet af Hans Henrik Sievertsen (https://github.com/hhsievertsen).</div>
     </div>
 
 </body>
+<!--Main JS to create stuff-->
 <script src="js/sol.js" type="text/javascript"></script>
-
+<!--Select city-->
 <script src="js/city_selector.js"></script>
 
 </html>

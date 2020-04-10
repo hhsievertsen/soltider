@@ -1,3 +1,10 @@
+@font-face {
+    font-family: system;
+    font-style: normal;
+    font-weight: 300;
+    src: url('../font/gotu.woff') format('woff');
+}
+
 * {
     box-sizing: border-box
 }
@@ -5,12 +12,13 @@
 html,
 body {
     width: 100%;
+    font-family: "system";
     overflow: hidden;
 }
 
 .glider {
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .glider-contain {
@@ -29,12 +37,14 @@ body {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .level1 {
     width: 100%;
     text-align: center;
+    font-size: 13px;
+    max-height: 100%;
 }
 
 .level2 {
@@ -44,4 +54,12 @@ h1 {
 
 .level3 {
     text-align: left;
+}
+
+.credit {
+    font-size: 9px;
+}
+
+#textbox {
+    height: 60%;
 }
