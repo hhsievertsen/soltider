@@ -45,8 +45,10 @@ h1 {
 .level1 {
     width: 95%;
     text-align: center;
+    text-align: center;
     font-size: 13px;
     max-height: 95%;
+    margin: auto;
 }
 
 .level2 {
