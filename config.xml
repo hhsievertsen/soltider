@@ -15,4 +15,5 @@
 	Hans Henrik Sievertsen
 		</author>
 		<preference name="permissions" value="none"/>
+		<preference name="android-minSdkVersion" value="17" />
 	</widget>
