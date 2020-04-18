@@ -5,8 +5,15 @@
 		versionCode="7"
 		version   = "0.4">
 		<name>Soltider</name>
-		<preference name="Fullscreen" value="false" />
+			<preference name="Fullscreen" value="true" />
 		<preference name="orientation" value="portrait" />
+		<preference name="DisallowOverscroll" value="true" />
+		<preference name="KeepRunning" value="true" />
+		<preference delete="true" name="android-manifest/uses-permission/[@android:name='android.permission.INTERNET']" />
+        <preference delete="true" name="android-manifest/uses-permission/[@android:name='android.permission.ACCESS_NETWORK_STATE']" />
+        <preference delete="true" name="android-manifest/uses-permission/[@android:name='android.permission.ACCESS_WIFI_STATE']" />
+        <preference delete="true" name="android-manifest/uses-permission/[@android:name='android.permission.READ_EXTERNAL_STORAGE']" />
+        <preference delete="true" name="android-manifest/uses-permission/[@android:name='android.permission.WRITE_EXTERNAL_STORAGE']" />
 		<icon src="icon.png" />
 		<description>
 		Soltider
