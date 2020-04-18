@@ -22,5 +22,5 @@
 	Hans Henrik Sievertsen
 		</author>
 		<preference name="permissions" value="none"/>
-		<preference name="android-targetSdkVersion" value="28" />
+		<uses-sdk android:targetSdkVersion="27" android:minSdkVersion="7" />
 	</widget>
