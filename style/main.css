@@ -45,8 +45,8 @@ h1 {
 }
 
 .glider-contain {
-    width: 60%;
-    max-width: 300px;
+    width: 55%;
+    max-width: 95%;
     margin: 0 auto;
     height: 9%;
     overflow: hidden;
