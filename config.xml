@@ -1,9 +1,10 @@
+  
 <?xml version="1.0" encoding="UTF-8"?>
 	<widget xmlns = "http://www.w3.org/ns/widgets"
 		xmlns:gap = "http://phonegap.com/ns/1.0"
 		id        = "net.hhsievertsen.soltider"
-		versionCode="6"
-		version   = "0.6">
+		versionCode="3"
+		version   = "0.3">
 		<name>Soltider</name>
 		<preference name="Fullscreen" value="false" />
 		<preference name="orientation" value="portrait" />
