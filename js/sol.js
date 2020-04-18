@@ -122,6 +122,7 @@ var create_site = function(duration_set, latitude, longitude, offset) {
                 }]
             },
             options: {
+                aspectRatio: 1.5,
                 tooltips: { enabled: false },
                 hover: { mode: null },
                 events: [],
