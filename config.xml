@@ -23,7 +23,7 @@
 		</author>
 		<preference name="permissions" value="none"/>
 		<preference name="android-targetSdkVersion" value="28" />
-		<preference name="android-minSdkVersion" value="4.4" />
+		<preference name="android-minSdkVersion" value="7" />
 	</widget>
 		
 
