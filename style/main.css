@@ -24,7 +24,7 @@ h1 {
 }
 
 #title {
-    height: 10%;
+    height: 7%;
 }
 
 #subtitle {
@@ -32,11 +32,11 @@ h1 {
 }
 
 #textbox {
-    height: 33%;
+    height: 35%;
 }
 
 #chartbox {
-    height: 34%;
+    height: 35%;
 }
 
 .credit {
@@ -55,7 +55,7 @@ h1 {
 .level1 {
     display: inline-block;
     width: 95%;
-    font-size: 0.91em;
+    font-size: 0.94em;
     text-align: center;
     overflow: hidden;
 }
