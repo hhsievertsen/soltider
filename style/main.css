@@ -47,7 +47,7 @@ h1 {
     width: 98%;
     overflow: hidden;
     text-align: center;
-    font-size: 13px;
+    font-size: 12px;
     margin: auto;
     max-height: 100%;
 }
@@ -56,13 +56,11 @@ h1 {
     display: inline-block;
     width: 95%;
     text-align: center;
-    max-height: 50vh;
     overflow: hidden;
 }
 
 .level3 {
     text-align: left;
-    max-height: 35vh;
 }
 
 .credit {
@@ -71,4 +69,8 @@ h1 {
 
 #subtitle {
     max-width: 85%;
+}
+
+#myChart {
+    max-height: 35vh;
 }

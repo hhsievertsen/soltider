@@ -3,7 +3,7 @@
 		xmlns:gap = "http://phonegap.com/ns/1.0"
 		id        = "net.hhsievertsen.soltider"
 		versionCode="7"
-		version   = "0.4">
+		version   = "0.71">
 		<name>Soltider</name>
 			<preference name="Fullscreen" value="true" />
 		<preference name="orientation" value="portrait" />
