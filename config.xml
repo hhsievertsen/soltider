@@ -7,13 +7,20 @@
 		<name>Soltider</name>
 		<preference name="Fullscreen" value="true" />
 		<preference name="orientation" value="portrait" />
+		<preference name="DisallowOverscroll" value="true" />
+		<preference name="KeepRunning" value="true" />
+		<preference delete="true" name="android-manifest/uses-permission/[@android:name='android.permission.INTERNET']" />
+        <preference delete="true" name="android-manifest/uses-permission/[@android:name='android.permission.ACCESS_NETWORK_STATE']" />
+        <preference delete="true" name="android-manifest/uses-permission/[@android:name='android.permission.ACCESS_WIFI_STATE']" />
+       <preference delete="true" name="android-manifest/uses-permission/[@android:name='android.permission.READ_EXTERNAL_STORAGE']" />
+        <preference delete="true" name="android-manifest/uses-permission/[@android:name='android.permission.WRITE_EXTERNAL_STORAGE']" />
 		<icon src="icon.png" />
 		<description>
 		Soltider
 		</description>
-		<author href="http://www.hhsievertsen.net" email="hhsievertsen@gmail.com">
+		<author href="" email="hhsievertsen@gmail.com">
 	Hans Henrik Sievertsen
 		</author>
 		<preference name="permissions" value="none"/>
-		<uses-sdk android:targetSdkVersion="27" android:minSdkVersion="7" />
+		<preference name="android-targetSdkVersion" value="28" />
 	</widget>
