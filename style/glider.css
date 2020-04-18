@@ -62,7 +62,7 @@
     background: none;
     padding: 0;
     z-index: 2;
-    font-size: 40px;
+    font-size: 30px;
     text-decoration: none;
     left: 0px;
     border: 0;
@@ -74,23 +74,9 @@
     transition: opacity .5s cubic-bezier(.17, .67, .83, .67), color .5s cubic-bezier(.17, .67, .83, .67);
 }
 
-.glider-prev:hover,
-.glider-next:hover,
-.glider-prev:focus,
-.glider-next:focus {
-    color: #a89cc8;
-}
-
 .glider-next {
     right: 0px;
     left: auto;
-}
-
-.glider-next.disabled,
-.glider-prev.disabled {
-    opacity: .25;
-    color: #666;
-    cursor: default;
 }
 
 .glider-slide {
@@ -145,4 +131,9 @@
         background-color: rgba(255, 255, 255, 0.25);
         box-shadow: 0 0 1px rgba(255, 255, 255, 0.25);
     }
+}
+
+.glider {
+    text-align: center;
+    font-size: 16px;
 }

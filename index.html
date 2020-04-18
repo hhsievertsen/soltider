@@ -16,69 +16,65 @@
     <script src="js/moment.js"></script>
     <script src="js/moment-timezone-with-data.js"></script>
     <!--Layout-->
-    <link href="style/main.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" type="text/css" href="style/glider.css">
     <link href="https://fonts.googleapis.com/css2?family=Gotu&display=swap" rel="stylesheet">
+    <link href="style/main.css" rel="stylesheet" type="text/css" />
     <!--Viewport-->
     <meta name="viewport" content="user-scalable=no, initial-scale=0.9, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
 </head>
 <html>
 
 <body>
-    <div class="level1">
+    <div id="title">
         <h1>Soltider</h1>
-        <div class="level2" id="subtitle">
-            <em>Denne app er lavet til min mor, men du må også godt bruge den.</em>
-        </div>
-        <br>
-        <div class="level2" id="textbox">
-            <div class="level3">
-                <ul>
-                    <li>
-                        <p id="text1"></p>
-                    </li>
-                    <li>
-                        <p id="text2"></p>
-                    </li>
-                    <li>
-                        <p id="text3"></p>
-                    </li>
-                    <li>
-                        <p id="text4"></p>
-                    </li>
-                </ul>
-                <br><br>
-            </div>
-        </div>
-        <div class="level2" id="chartbox">
-            <canvas id="myChart"></canvas>
-        </div>
-        <div class="level2" id="space">
-        </div>
-        <div class="glider-contain">
-            <div class="glider">
-                <!--Options: note ordering matters, because location is selected based on the slide number-->
-                <div>Aarhus</div>
-                <div>Fiskbæk</div>
-                <div>Guatemala City</div>
-                <div>Hong Kong</div>
-                <div>Húsavík</div>
-                <div>København</div>
-                <div>London</div>
-                <div>Nairobi</div>
-                <div>New York</div>
-                <div>Odense</div>
-                <div>San Francisco</div>
-                <div>Sydney</div>
-                <div>Svaneke</div>
-                <div>Tromsø</div>
-            </div>
-            <button class="glider-prev">&laquo;</button>
-            <button class="glider-next">&raquo;</button>
-        </div>
-        <br>
-        <div class="credit">Udviklet af Hans Henrik Sievertsen (<a href="https://github.com/hhsievertsen/soltider" target="_blank" style="text-decoration: none;">github</a>).</div>
     </div>
+    <div class="level1" id="subtitle">
+        <em>Denne app er lavet til min mor, men du må også godt bruge den.</em>
+    </div>
+    <div class="level1" id="textbox">
+        <div class="level2">
+            <ul>
+                <li>
+                    <p id="text1"></p>
+                </li>
+                <li>
+                    <p id="text2"></p>
+                </li>
+                <li>
+                    <p id="text3"></p>
+                </li>
+                <li>
+                    <p id="text4"></p>
+                </li>
+            </ul>
+            <br><br>
+        </div>
+    </div>
+    <div class="level1" id="chartbox">
+        <canvas id="myChart"></canvas>
+    </div>
+    <div class="glider-contain">
+        <div class="glider">
+            <!--Options: note ordering matters, because location is selected based on the slide number-->
+            <div>Aarhus</div>
+            <div>Fiskbæk</div>
+            <div>Guatemala City</div>
+            <div>Hong Kong</div>
+            <div>Húsavík</div>
+            <div>København</div>
+            <div>London</div>
+            <div>Nairobi</div>
+            <div>New York</div>
+            <div>Odense</div>
+            <div>San Francisco</div>
+            <div>Sydney</div>
+            <div>Svaneke</div>
+            <div>Tromsø</div>
+        </div>
+        <button class="glider-prev">&laquo;</button>
+        <button class="glider-next">&raquo;</button>
+    </div>
+    <div class="credit">Udviklet af Hans Henrik Sievertsen (<a href="https://github.com/hhsievertsen/soltider" target="_blank" style="text-decoration: none;">github</a>).</div>
 
 </body>
 <!--Main JS to create stuff-->

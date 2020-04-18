@@ -11,60 +11,56 @@
 
 html,
 body {
-    width: 100%;
+    width: 100wh;
     font-family: "system";
     text-align: center;
     margin: auto;
-    max-height: 100vh;
+    height: 100vh;
     overflow: hidden;
-}
-
-.glider {
-    text-align: center;
-    font-size: 20px;
-}
-
-.glider-contain {
-    width: 60%;
-    max-width: 300px;
-    margin: 0 auto;
-}
-
-.glider-slide {
-    height: 10px;
-    min-height: 50px;
-}
-
-.glider-slide img {
-    width: 95%;
 }
 
 h1 {
     font-size: 30px;
 }
 
-.level1 {
-    width: 98%;
-    overflow: hidden;
-    text-align: center;
-    font-size: 12px;
-    margin: auto;
-    max-height: 100%;
+#title {
+    height: 10%;
 }
 
-.level2 {
+#subtitle {
+    height: 7.5%;
+}
+
+#textbox {
+    height: 30%;
+}
+
+#chartbox {
+    height: 34%;
+}
+
+.credit {
+    font-size: 9px;
+    height: 5%;
+}
+
+.glider-contain {
+    width: 60%;
+    max-width: 300px;
+    margin: 0 auto;
+    height: 9%;
+    overflow: hidden;
+}
+
+.level1 {
     display: inline-block;
     width: 95%;
     text-align: center;
     overflow: hidden;
 }
 
-.level3 {
+.level2 {
     text-align: left;
-}
-
-.credit {
-    font-size: 9px;
 }
 
 #subtitle {
