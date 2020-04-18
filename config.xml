@@ -5,7 +5,6 @@
 		versionCode="7"
 		version   = "0.71">
 		<name>Soltider</name>
-			<preference name="Fullscreen" value="true" />
 		<preference name="orientation" value="portrait" />
 		<preference name="DisallowOverscroll" value="true" />
 		<preference name="KeepRunning" value="true" />
